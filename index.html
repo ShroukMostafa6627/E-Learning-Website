@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NextGen Academy</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">NextGen Academy</div>
+
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#lecturers" class="nav-link">Lecturers</a></li>
+      <li><a href="#courses" class="nav-link">Courses</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-buttons">
+      <button class="sign-btn" onclick="alert('Sign in page will open soon')">Sign in</button>
+      <button class="trial-btn" onclick="alert('Free Trial started')">Free Trial</button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Develop your <br> skills in a new <br> and unique way</h1>
+
+    <p>
+      Develop your skills in a fresh, unique way by exploring
+      hands-on experiences, creative problem-solving,
+      and real-world applications with NextGen Academy.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="enroll-btn" onclick="location.href='#courses'">Enrol Now</button>
+
+      <div class="watch" onclick="alert('Video will play soon')">
+        <i class="fa-solid fa-circle-play"></i>
+        <span>Watch video</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <div class="circle"></div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="student">
+    <div class="tag code">Code</div>
+    <div class="tag design">Design</div>
+  </div>
+</section>
+
+<section class="brands">
+  <div class="brand"><i class="fa-brands fa-github"></i> Github</div>
+  <div class="brand"><i class="fa-solid fa-link"></i> Coursera</div>
+  <div class="brand"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+  <div class="brand"><i class="fa-brands fa-apple"></i> Apple</div>
+  <div class="brand"><i class="fa-brands fa-google"></i> Google</div>
+</section>
+
+<section class="search-section">
+  <h2>Search Courses</h2>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search for over 50+ courses">
+    <button>Search</button>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="benefit-image">
+    <div class="benefit-card">
+      <img src="https://img.freepik.com/premium-vector/e-learning-interactions-illustration-concept_114360-23713.jpg" alt="student">
+    </div>
+  </div>
+
+  <div class="benefit-text">
+    <h2><span>Benefits</span> from our online learning</h2>
+
+    <div class="benefit-item">
+      <i class="fa-regular fa-clock"></i>
+      <div>
+        <h3>Flexibility</h3>
+        <p>Learn at your own pace, anytime and anywhere.</p>
+      </div>
+    </div>
+
+    <div class="benefit-item">
+      <i class="fa-regular fa-user"></i>
+      <div>
+        <h3>Expert Instructors</h3>
+        <p>Gain knowledge from industry professionals.</p>
+      </div>
+    </div>
+
+    <div class="benefit-item">
+      <i class="fa-solid fa-chart-column"></i>
+      <div>
+        <h3>Career Growth</h3>
+        <p>Develop in-demand skills and earn certifications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="courses" id="courses">
+  <h2>Our Courses</h2>
+
+  <p class="course-text">
+    Develop your skills in a fresh and unique way with practical courses.
+  </p>
+
+  <div class="course-container">
+
+    <div class="course-card" onclick="alert('You selected Web Design & Development')">
+      <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" alt="Web Design">
+      <div class="course-content">
+        <span class="category">Web Design</span>
+        <h3>Web Design & Development</h3>
+        <p>4 Courses • 250+ Students</p>
+        <div class="price">
+          <span>$300.00</span>
+          <small>Shrouk Mostafa</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card" onclick="alert('You selected Python for Data Science')">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Data Science">
+      <div class="course-content">
+        <span class="category">Data Science</span>
+        <h3>Python for Data Science</h3>
+        <p>4 Courses • 120+ Students</p>
+        <div class="price">
+          <span>$240.00</span>
+          <small>Karim Awad</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="course-card" onclick="alert('You selected Wireframing & Prototyping')">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="UI UX">
+      <div class="course-content">
+        <span class="category">UI/UX</span>
+        <h3>Wireframing & Prototyping</h3>
+        <p>4 Courses • 200+ Students</p>
+        <div class="price">
+          <span>$203.00</span>
+          <small>Layla Aly</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="lecturers" id="lecturers">
+  <h2>Our Lecturers</h2>
+
+  <p class="course-text">
+    Meet our professional lecturers who will help you improve your skills.
+  </p>
+
+  <div class="lecturer-container">
+
+    <div class="lecturer-card" onclick="alert('Professor: Shrouk Mostafa teaches Web Design')">
+      <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Lecturer">
+      <div class="lecturer-content">
+        <h3>Web Design Instructor</h3>
+        <p>Shrouk Mostafa</p>
+        <button class="view-btn">View Profile</button>
+      </div>
+    </div>
+
+    <div class="lecturer-card" onclick="alert('Professor: Karim Awad teaches Data Science')">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Lecturer">
+      <div class="lecturer-content">
+        <h3>Data Science Instructor</h3>
+        <p>Karim Awad</p>
+        <button class="view-btn">View Profile</button>
+      </div>
+    </div>
+
+    <div class="lecturer-card" onclick="alert('Layla Aly teaches UI/UX Design')">
+      <img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png" alt="Lecturer">
+      <div class="lecturer-content">
+        <h3>UI/UX Design Instructor</h3>
+        <p>Layla Aly</p>
+        <button class="view-btn">View Profile</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: nextgenacademy@gmail.com</p>
+  <p>Phone: +20 123 456 7890</p>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>NextGen Academy</h3>
+      <p>Learn new skills online with expert instructors and practical courses.</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#lecturers">Lecturers</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p><i class="fa-solid fa-envelope"></i> nextgenacademy@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +20 123 456 7890</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 NextGen Academy. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const searchBtn = document.querySelector(".search-box button");
+  const searchInput = document.querySelector(".search-box input");
+
+  searchBtn.addEventListener("click", () => {
+    const value = searchInput.value.toLowerCase();
+    const cards = document.querySelectorAll(".course-card");
+
+    cards.forEach(card => {
+      const title = card.querySelector("h3").textContent.toLowerCase();
+
+      if (title.includes(value)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+
+    location.href = "#courses";
+  });
+
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.forEach(item => item.classList.remove("active"));
+      link.classList.add("active");
+    });
+  });
+</script>
+
+</body>
+</html>
